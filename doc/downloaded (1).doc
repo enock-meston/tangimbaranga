@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center>
+        <u> <h4>House Renting Contruct</h4></u>
+       
+    </center>
+    <p>
+        This is to certify that the following house is rented to the following client for the following period of time.
+        </p
+        <p>
+            <b>House Details</b>
+
+            <table border="1" width="100%">
+                <tr>
+                    <th>House Number</th>
+                    <th>House Reference</th>
+                    <th>Price</th>
+                    <th>District</th>
+                    <th>Sector</th>
+                    <th>Village</th>
+                    <th>Cell</th>
+                    <th>Landlord</th>
+                    <th>Authority Status</th>
+
+                </tr>
+                                <tr>
+                    <td>NH0001</td>
+                    <td>56721416</td>
+                    <td>10</td>
+                    <td>Gasabo</td>
+                    <td>Rusororo</td>
+                    <td>Kabutare</td>
+                    <td>Nyagahinga</td>
+                    <td>Maniraguha emmanuel</td>
+                    <td>success</td>
+                </tr>
+    </table>
+        </p>
+       <p>
+        Tenant Details
+        <table border="1" width="100%">
+            <tr>
+                <th>Names</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>ID Number</th>
+            </tr>
+                
+            <tr>
+                <td>muhire alli</td>
+                <td>078398287</td>
+                <td>ndagijimanaenock11@gmail.com</td>
+                <td>1234567891234567</td>
+            </tr>
+       </p>
+               </table>
+</body>
+</html>
