@@ -70,7 +70,8 @@ if (strlen($_SESSION['min_id']) == 0) {
               </thead>
               <tbody>
                 <?php
-                $sql = "SELECT * FROM `donetransaction` LEFT JOIN user ON donetransaction.doneby = user.userid";
+                $sql = "SELECT * FROM `donetransaction` LEFT JOIN user ON donetransaction.doneby = user.userid 
+                ";
                 $result = mysqli_query($con, $sql);
                 $count =1;
                 while ($row = mysqli_fetch_assoc($result)) {
@@ -90,14 +91,13 @@ if (strlen($_SESSION['min_id']) == 0) {
                     </a>  
                     
                 </td>
-                
-                
 
                     </tr>
                   <?php
                   $count++;
                 }
-                  ?><tr>
+                  ?>
+                  <tr>
                   <td>Total: <?php 
                       $sl = mysqli_query($con,"SELECT sum(amount) as tamount FROM `donetransaction`");
                       while ($data= mysqli_fetch_assoc($sl)) {

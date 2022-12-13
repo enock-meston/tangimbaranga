@@ -99,7 +99,7 @@ if (strlen($_SESSION['dis_id']) == 0) {
                   ?>
                   <tr>
                   <td>Total: <?php 
-                      $sl = mysqli_query($con,"SELECT sum(amount) as tamount FROM `donetransaction`");
+                      $sl = mysqli_query($con,"SELECT sum(amount) as tamount FROM `donetransaction` WHERE doneby='$me'");
                       while ($data= mysqli_fetch_assoc($sl)) {
                         echo $data['tamount'];
                       }
